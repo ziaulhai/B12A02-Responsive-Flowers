@@ -452,6 +452,11 @@ footer{
 
 @media screen and (max-width: 393px) {
 
+   html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
    .head{
     margin-bottom: 0;
    }
