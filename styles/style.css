@@ -110,7 +110,104 @@ body{
    height: 355px;
    width: 570px;
 }
+/* Our Plants */
+.our-plants h2{
+    font-size: 3rem;
+    text-align: center;
+}
+.our-plants p{
+    text-align: center;
+}
 
+
+/* cart Section */
+.flower-cart{
+    height: 1000px;
+    width: 1140px;
+    margin-bottom: 180px;
+}
+.flower-cart{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+.lily-blosom{
+    justify-items: center;
+    margin-bottom: 30px;
+}
+.lily-blosom img{
+    height: 322px;
+    width: 270px;
+}
+
+.product-title{
+    font-size: 1.2rem;
+    font-weight:normal;
+    text-align: center;
+} 
+.price{
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+.add-to-cart{
+    background-color: #E95A08;
+    border: none;
+    height: 50px;
+    width: 270px;
+
+}
+.add-to-cart a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    height: 12px;
+    width: 110px;
+
+}
+
+/* Plants lover section */
+.flower-plants-container{
+    display: grid;
+    grid-template-columns: 550px 550px;
+    grid-template-rows: 597px 597px;
+    gap: 50px;
+    margin-bottom: 180px;
+    
+}
+.badge-image{
+    position: relative;
+    width: 540px;
+    height: 597px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.badge-image img:first-child {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+#badge{
+    position: absolute;
+  top: -86px;
+  right: -86px;
+  width: 240px;
+  height: 240px;
+}
+.plants-lover-title{
+    font-weight: 700;
+    font-size: 3rem;
+    margin-left: 15px;
+    
+}
+
+.description li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
 
 
@@ -123,7 +220,9 @@ body{
 
 @media screen and (max-width: 393px) {
 
-   
+   .head{
+    margin-bottom: 0;
+   }
   .nav-menu{
     display: none;
 
@@ -163,17 +262,134 @@ body{
     left: 15px;
 }
 
+.fresh-flower{
+    grid-area: fresh-flower;
+    height: 147px;
+    width: 361px;
+    margin-left: 15px;
+    margin-right: 14px;    
+    
+}
+
+
+.fresh-flower-image{
+    display: grid;
+    grid-area: fresh-flower-image;
+    width: 393px;
+    height: 245px;
+    padding-top: 0;
+}
 .always-fresh-flower{
+    display: grid;
     grid-template-columns: 1fr;
+    grid-template-areas: 
+    "fresh-flower-image"
+    "fresh-flower"
+    ;
+    gap: 120px;
+    margin-top: -350px;
+}
+.heading-size h2{
+    font-size: 1.5rem;
 
 }
-.resh-flower-image img{
-    height: 245px;
-    width: auto;
+.description{
+    font-size: 0.9rem;
 }
+.our-plants{
+    height: 117px;
+    width: 363px;
+    margin-left: 15px;
+    margin-right: 14px;
+    
+}
+
+.our-plants h2{
+    font-size: 1.5rem;
+}
+.our-plants p{
+    font-size: 0.8rem;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.Our-plants-container{
+    margin-left: 15px;
+    margin-right: 14px;
+
+}
+
+.flower-cart{
+    display: grid;
+    grid-template-columns: 180px 180px;
+    grid-template-areas: 
+    "lily-blosom"  "lily-blosom"
+    ;
+}
+
+
+.lily-blosom{
+    width: 171px;
+    height: 340px;
+    justify-items: center;
+    
+
+}
+.lily-blosom img{
+    height: 196px;
+    width: 171px;
+    margin-left: 15px;
+}
+
+.add-to-cart {
+    transform: scale(0.63);
+    transform-origin: left;
+    margin-left: 15px;
+}
+
+.flower-plants-container{
+    display: grid;
+    grid-template-columns: 360px;
+    gap: 30px;
+    /* margin-bottom: 180px; */
+    
+}
+.plants-lover-title{
+    font-size: 1.5rem;
+}
+.plants-lover-title br{
+    display:none;
+}
+
+.description li{
+    max-width: 360px;
+    font-size: 0.8rem;
+    text-align: justify;
+}
+
+#badge{
+    display:none;
+}
+#flowerbanner{
+    height: 354px;
+    width: 350px;
+    padding-top: 300px;
+    margin-left: 20px;
+  
+}
+.plants-lover{
+    padding-top: 50px;
+    margin-left: 10px;
+}
+
+.plants-lover-title{
+    margin-left: 25px;
+}
+
+
 
 
 
 
     
+
 }
