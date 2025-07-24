@@ -209,6 +209,23 @@ body{
   width: 240px;
   height: 240px;
 }
+/* animation */
+.spin-badge {
+  width: 240px;
+  height: 240px;
+  animation: spin 3s linear infinite;
+
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
 .plants-lover-title{
     font-weight: 700;
     font-size: 3rem;
