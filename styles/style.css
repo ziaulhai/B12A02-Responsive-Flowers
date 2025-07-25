@@ -442,15 +442,309 @@ footer{
 
 
 
+@media screen and (max-width: 425px){
+
+ html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+   .head{
+    margin-bottom: 0;
+   }
+  .nav-menu{
+    display: none;
+
+  }
+.mobile-menu{
+    height: 361px;
+    width: 38px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+    padding: 30px;
+
+}
+.mobile-menu img{
+    height: 38px;
+    width: 63px;
+    }
+.logo{
+    justify-self: start;
+}
+.cart-mobile{
+    height: 24px;
+    width: 113px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: end;
+}
+.cart-mobile a{
+    text-decoration: none;
+}
+.cart-mobile img{
+    display: block;
+    transform: scale(0.7);
+    transform-origin: center;
+    position: relative;
+    left: 15px;
+}
+
+.fresh-flower{
+    grid-area: fresh-flower;
+    height: 147px;
+    width: 361px;
+    Padding-left: 10px;
+    padding-right: 10px;    
+}
+.fresh-flower p, h2{
+    padding-left: 25px;
+    padding-right: 10px;
+}
+
+
+.fresh-flower-image{
+    display: grid;
+    grid-area: fresh-flower-image;
+    width: 393px;
+    height: 245px;
+    padding-top: 0;
+}
+.always-fresh-flower{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "fresh-flower-image"
+    "fresh-flower"
+    ;
+    gap: 120px;
+    margin-top: -350px;
+}
+.heading-size h2{
+    font-size: 1.5rem;
+
+}
+.description{
+    font-size: 0.9rem;
+}
+.our-plants{
+    height: 145px;
+    width: 390px;
+    padding-left: 20px;
+    padding-right: 10px;
+    
+}
+
+.our-plants h2{
+    font-size: 1.5rem;
+    margin-right: 20px;
+}
+.our-plants p{
+    font-size: 0.8rem;
+    margin-right: 35px;
+}
+.Our-plants-container{
+    padding-left: 18px;
+    padding-right: 10px;
+
+}
+.flower-plants-container{
+    margin-bottom: 100px;
+}
+
+.flower-cart{
+    display: grid;
+    grid-template-columns: 190px 190px;
+    grid-template-areas: 
+    "lily-blosom"  "lily-blosom"
+    ;
+}
+
+
+.lily-blosom{
+    width: 171px;
+    height: 340px;
+    justify-items: center;
+    
+
+}
+.lily-blosom img{
+    height: 196px;
+    width: 171px;
+    margin-left: 15px;
+}
+
+.add-to-cart {
+    transform: scale(0.63);
+    transform-origin: left;
+    margin-left: 15px;
+}
+
+.flower-plants-container{
+    display: grid;
+    grid-template-columns: 360px;
+    gap: 30px;
+    /* margin-bottom: 180px; */
+    
+}
+
+.plants-lover-title{
+    font-size: 1.5rem;
+}
+.plants-lover-title br{
+    display:none;
+}
+
+.description li{
+    max-width: 360px;
+    font-size: 0.8rem;
+    text-align: justify;
+}
+
+#badge{
+    display:none;
+}
+#flowerbanner{
+    height: 359px;
+    width: 360px;
+    padding-top: 300px;
+    padding-left: 23px;
+    padding-right: 10px;
+  
+}
+.plants-lover{
+    padding-top: 50px;
+    margin-left: 10px;
+}
+
+.plants-lover-title{
+    margin-left: 25px;
+}
+
+
+
+.join-us{
+    background-size: contain;
+    background-position: top center;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+background-image:
+linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
+url(../assets/news-letter-bg.png);                      
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 300px;
+
+}
+.join-title h2{
+    font-size: 1.2rem;
+    height: 27px;
+    width: 237px;
+}
+.search input{
+    height: 46px;
+    width: 218px;
+}
+.subscribe{
+    height: 50px;
+    width: 103px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    height:auto;
+    align-items: self-start;
+    overflow: hidden;
+    padding-right: 15px;
+    padding-left: 15px;
+    gap: 0;
+    align-items: flex-start;
+
+}    
+.left-side{
+    margin-left: 12px;
+}
+.right-side{
+    margin-left: 12px;
+    margin-top: 8px;
+}
+.middle-two ul, .middle-one ul{
+    margin: 0;
+    padding: 0;
+}
+.latest-deals-container{
+    height: auto;
+    width: 361px;
+}
+.image-gallery{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 35px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.sixty{
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../assets/deal-bloom.png);
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    height: 190px;
+    width: 350px;
+    align-items: center;
+
+}
+.thirty{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../assets/deal-ana.png);
+    background-color: #252432;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    height: 190px;
+    width: 350px;
+    
+}
+.twenty{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../assets/deal-zabo.png);
+    height: 190px;
+    width: 350px;
+    border-radius: 14px;
+   
+}
+.twenty h3{
+    font-size: 1rem;
+}
+.twenty h4{
+    font-size: 1rem;
+}
+
+
+.flower-plants-container{
+    margin-bottom: 50px;
+}
+
+
+
+    
+}
 
 
 
 
 
 
-/* responsive */
 
-@media screen and (max-width: 393px) {
+/* Responsive for 393px */
+
+@media screen and (max-width: 393px){
 
    html, body {
   max-width: 100%;
@@ -503,9 +797,12 @@ footer{
     grid-area: fresh-flower;
     height: 147px;
     width: 361px;
-    margin-left: 15px;
-    margin-right: 14px;    
-    
+    Padding-left: 10px;
+    padding-right: 10px;    
+}
+.fresh-flower p, h2{
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 
@@ -536,8 +833,8 @@ footer{
 .our-plants{
     height: 117px;
     width: 363px;
-    margin-left: 15px;
-    margin-right: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
     
 }
 
@@ -550,8 +847,8 @@ footer{
     padding-right: 10px;
 }
 .Our-plants-container{
-    margin-left: 15px;
-    margin-right: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
 
 }
 .flower-plants-container{
@@ -593,6 +890,7 @@ footer{
     /* margin-bottom: 180px; */
     
 }
+
 .plants-lover-title{
     font-size: 1.5rem;
 }
@@ -613,7 +911,8 @@ footer{
     height: 354px;
     width: 350px;
     padding-top: 300px;
-    margin-left: 20px;
+    padding-left: 15px;
+    padding-right: 10px;
   
 }
 .plants-lover{
@@ -650,7 +949,7 @@ url(../assets/news-letter-bg.png);
     width: 237px;
 }
 .search input{
-    height: 50px;
+    height: 46px;
     width: 218px;
 }
 .subscribe{
@@ -687,7 +986,8 @@ footer{
 .image-gallery{
     display: grid;
     grid-template-columns: 1fr;
-    margin-left: 35px;
+    padding-left: 25px;
+    padding-right: 10px;
     margin-bottom: 20px;
     margin-top: 10px;
 }
@@ -736,3 +1036,12 @@ footer{
 
 
 }
+
+
+
+
+
+
+
+
+
