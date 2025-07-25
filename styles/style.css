@@ -343,7 +343,9 @@ footer{
     padding: 15px;
     white-space: nowrap;
 }
-
+.middle-one ul, .middle-two ul{
+    margin-top: -10px;
+}
 .right-side{
     height: 36px;
     width: 216px;
